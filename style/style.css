@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(169, 169, 169, 0.658);
+}
+header img{
+    width: 25vh;
+}
+main{
+    min-height: 85vh;
+}
+footer div{
+    height: 4.5vh;
+}
+@media (max-width: 425px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
